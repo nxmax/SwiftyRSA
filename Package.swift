@@ -8,6 +8,9 @@ let package = Package(
             name: "SwiftyRSA",
             type: .dynamic,
             targets: ["SwiftyRSA"]),
+        .library(
+            name: "SwiftyRSAStatic",
+            targets: ["SwiftyRSA"]),
     ],
     dependencies: [
     ],
